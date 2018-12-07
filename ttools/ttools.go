@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"runtime"
 )
-git
+
 func EchoFileLine(s string) {
 	_, filename, line, ok := runtime.Caller(1)
 	if ok {
